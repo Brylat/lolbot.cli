@@ -1,0 +1,5 @@
+﻿services:
+  lolbot:
+    image: andrzejjankowski/lolbot.cli:0.3
+    env_file: "lolbot.cli.env"
+    restart: unless-stopped
